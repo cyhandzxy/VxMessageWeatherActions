@@ -19,9 +19,9 @@ import java.util.List;
  *               -- 2022/10/5
  */
 public class AllConfig {
-    public static final String VxAppId = "微信的APPID";
-    public static final String VxAppSecret = "微信的密钥";
-    public static final String WeatherKey = "高德地图key";
+    public static final String VxAppId = "wx4bd9bb3007cbc0b5";
+    public static final String VxAppSecret = "5e496a468cc342e01362dc5bdda07f98";
+    public static final String WeatherKey = "09cecdd107c9d02b5f7694a5d732db43";
 
     //下列所有填写的  true 为开启， false 为不开启 ，#XXXXXX是颜色16进制HEX码（不知道颜色16进制HEX码可以百度）
     //系统开关
@@ -69,23 +69,23 @@ public class AllConfig {
         //  注意：日期里面的数字，填正常的数字就行了.比如1就是1，不要填01
         //  注意：每个用户信息的最后一项不需要加逗号！！！
         userList.add(getUser(
-                "这个人的微信号", //扫码关注你的测试号以后，测试平台会出现TA的微信号
-                "模板ID", //要给这个人发送的模板ID
-                "pt", //咋称呼这个人
-                "江苏省南京市玄武区", //这个人的详细地址
-                "南京", //这个人在的城市
-                new BirthDay(1999,2,15,true,false), //分别代表年、月、日、是否是农历(true为农历、false为公历)、是否统计天数(true为统计，false为倒计时)
-                new BirthDay(1999,8,11,false,false),
-                new BirthDay(2020,7,8,true,true),
-                new BirthDay(2020,7,8,true,false)
+                "oZQxC52qOhBLnPM9nCYYhT8uXD3k", //扫码关注你的测试号以后，测试平台会出现TA的微信号
+                "gJXIwQzd2hZZKYmIeDH0GnAl27V14PMnugeq-YJ8v5E", //要给这个人发送的模板ID
+                "宝", //咋称呼这个人
+                "安徽省宿州市埇桥区", //这个人的详细地址
+                "宿州", //这个人在的城市
+                new BirthDay(2002,3,29,false,false), //分别代表年、月、日、是否是农历(true为农历、false为公历)、是否统计天数(true为统计，false为倒计时)
+                new BirthDay(2001,4,6,true,false),
+                new BirthDay(2020,2,11,false,false),
+                new BirthDay(2020,2,11,false,true)
         ));
 
         userList.add(getUser(
                 "这个人扫码后的微信号",//扫码关注你的测试号以后，测试平台会出现TA的微信号
                 "微信消息模板ID",//要给这个人发送的模板ID
                 "这个人的称呼",//咋称呼这个人
-                "江苏省南京市玄武区",//这个人的详细地址
-                "南京",//这个人在的城市
+                "江苏省南京市埇桥区",//这个人的详细地址
+                "宿州",//这个人在的城市
                 new BirthDay(1999,8,11,false,false),
                 new BirthDay(1999,2,15,true,false),
                 new BirthDay(2020,7,8,true,true),
